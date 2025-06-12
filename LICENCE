@@ -1,0 +1,312 @@
+ERN Open Hardware License Version 2 – Schwach reziprok
+Copyright (c) 2025, Gugglberger Reinhard
+
+
+Präambel
+
+CERN hat diese Lizenz entwickelt, um die Zusammenarbeit zwischen
+Hardware-Designer und ein rechtliches Instrument zur Verfügung zu stellen, das die
+Freiheit, Hardware-Designs zu verwenden, zu studieren, zu ändern, zu teilen und zu verteilen
+und Produkte, die auf diesen Designs basieren. Version 2 des CERN Open
+Die Hardware-Lizenz gibt es in drei Varianten: CERN-OHL-P (permissiv); und
+zwei reziproke Lizenzen: diese Lizenz, CERN-OHL-W (schwach reziprok)
+und CERN-OHL-S (stark reziprok).
+
+Das CERN-OHL-W unterliegt dem Copyright CERN 2020. Jeder ist herzlich eingeladen, es zu verwenden, in
+nur in unveränderter Form.
+
+Die Verwendung dieser Lizenz bedeutet nicht, dass CERN irgendeine
+Lizenzgeber oder deren Designs, noch bedeutet es eine Beteiligung von CERN an
+ihre Entwicklung.
+
+
+1 Begriffsbestimmungen
+
+  1.1 „Lizenz“ bezeichnet diese CERN-OHL-W.
+
+  1.2 „Kompatible Lizenz“ bedeutet
+
+       a) jede frühere Version der CERN Open Hardware-Lizenz oder
+
+       b) jede Version des CERN-OHL-S oder des CERN-OHL-W oder
+
+       c) jede Lizenz, die Ihnen erlaubt, die Quelle zu behandeln, auf die
+          es gilt als lizenziert unter CERN-OHL-S oder CERN-OHL-W
+          vorausgesetzt, dass bei der Übermittlung einer solchen Quelle oder einer
+          zugehöriges Produkt Sie behandeln die betreffende Quelle als
+          lizenziert unter CERN-OHL-S oder CERN-OHL-W, je nachdem, was zutrifft.
+
+  1.3 „Quelle“ bezeichnet Informationen wie Designmaterialien oder digitale
+      Code, der angewendet werden kann, um ein Produkt herzustellen oder zu testen oder um
+      ein Produkt für den Gebrauch, die Beförderung oder den Verkauf vorzubereiten, unabhängig von seiner
+      Medium oder Ausdrucksweise. Es kann Hinweise enthalten.
+
+  1.4 „Abgedeckte Quelle“ bezeichnet eine Quelle, die ausdrücklich zur Verfügung gestellt wird
+      im Rahmen dieser Lizenz.
+
+  1.5 „Produkt“ bezeichnet jedes Gerät, jede Komponente, jedes Werk oder jeden physischen Gegenstand,
+      ob in fertiger oder Zwischenform, die aus der Verwendung entstehen,
+      Anwendung oder Verarbeitung der abgedeckten Quelle.
+
+  1.6 „Make“ bedeutet, etwas zu erstellen oder zu konfigurieren, sei es durch
+      Herstellung, Montage, Zusammenstellung, Laden oder Anwenden von
+      Quelle oder ein anderes Produkt oder anderweitig.
+
+  1.7 „Verfügbare Komponente“ bezeichnet jedes Teil, jede Unterbaugruppe, jede Bibliothek oder
+      Code, der:
+
+       a) wird Ihnen als vollständige Quelle unter einer kompatiblen
+          Lizenz; oder
+
+       b) zu dem Zeitpunkt verfügbar ist, an dem ein Produkt oder die Quelle, die
+          es wird zuerst übermittelt, an Sie und alle anderen potenziellen
+          Lizenznehmer
+
+           i) mit ausreichenden Rechten und Informationen (einschließlich
+              Konfigurations- und Programmierdateien und Informationen
+              über seine Eigenschaften und Schnittstellen), um es zu ermöglichen
+              entweder selbst hergestellt oder bezogen und verwendet werden, um
+              Das Produkt herstellen; oder
+          ii) als Teil der Normalverteilung eines Werkzeugs, das verwendet wird, um
+              Entwerfen oder stellen Sie das Produkt her.
+
+  1.8 „Externes Material“ bezeichnet alles (einschließlich der Quelle), was:
+
+       a) wird nur mit der abgedeckten Quelle so kombiniert, dass es
+          Schnittstellen mit der abgedeckten Quelle unter Verwendung einer dokumentierten
+          Schnittstelle, die in der abgedeckten Quelle beschrieben ist; und
+
+       b) ist kein Derivat von Covered Source oder enthält Covered Source, oder, wenn es
+          ist, es ist ausschließlich in dem Umfang, der erforderlich ist, um solche
+          Schnittstelle.
+
+  1.9 „Vollständige Quelle“ bezeichnet die Gesamtheit aller Quellen, die für die Herstellung von
+      ein Produkt, in der bevorzugten Form für Änderungen,
+      einschließlich notwendiger Installations- und Schnittstelleninformationen
+      sowohl für das Produkt als auch für alle enthaltenen verfügbaren Komponenten.
+      Handelt es sich um ein proprietäres Format, muss es auch in
+      ein Format (sofern das proprietäre Tool es erstellen kann), das
+      mit einem Tool für potenzielle Lizenznehmer sichtbar und
+      lizenziert unter einer von der Free Software
+      Foundation oder der Open Source Initiative. Komplette Quelle benötigen
+      nicht die Quelle einer verfügbaren Komponente enthalten, vorausgesetzt, dass
+      Sie fügen der vollständigen Quelle ausreichend Informationen hinzu, um
+      ermöglichen einem Empfänger, die Verfügbaren
+      Komponente zur Herstellung des Produkts.
+
+ 1.10 „Quellstandort“ bezeichnet einen Standort, an dem ein Lizenzgeber
+      Abgedeckte Quelle, und von der der Lizenzgeber vernünftigerweise annimmt, dass sie
+      mindestens drei Jahre lang für jedermann leicht zugänglich bleiben
+      eine digitale Kopie erhalten.
+
+ 1.11 „Hinweis“ bezeichnet Urheberrechts-, Anerkennungs- und Markenhinweise,
+      Quellenangaben, Änderungshinweise (Absatz
+      3.3(b)) und alle Hinweise, die sich auf diese Lizenz und auf die
+      Haftungsausschluss für Garantien, die in den abgedeckten
+      Quelle.
+
+ 1.12 „Lizenznehmer“ oder „Sie“ bezeichnet jede Person, die Rechte ausübt unter
+      diese Lizenz.
+
+ 1.13 „Lizenzgeber“ bezeichnet eine natürliche oder juristische Person, die
+      modifiziert Covered Source. Eine Person kann ein Lizenznehmer und ein
+      Lizenzgeber zugleich.
+
+ 1.14 „Übermitteln“ bedeutet, der Öffentlichkeit mitzuteilen oder zu verteilen.
+
+
+2 Geltungsbereich
+
+  2.1 Diese Lizenz regelt die Nutzung, das Kopieren, die Änderung, die Übermittlung
+      von abgedeckten Quellen und Produkten sowie die Herstellung von Produkten. Durch
+      Durch die Ausübung eines unter dieser Lizenz gewährten Rechts erklären Sie sich unwiderruflich
+      akzeptieren Sie diese Bedingungen.
+
+  2.2 Diese Lizenz wird Ihnen vom Lizenzgeber direkt gewährt, und
+      gelten weltweit und zeitlich unbegrenzt.
+
+  2.3 Sie dürfen nicht versuchen, durch Vertrag oder auf andere Weise die
+      Rechte, die im Rahmen dieser Lizenz anderen Lizenznehmern gewährt werden.
+
+  2.4 Diese Lizenz ist nicht dazu bestimmt, faire Nutzung, fairen Umgang,
+      oder jedes andere ähnliche Recht.
+
+
+3 Kopieren, Ändern und Übertragen von abgedeckter Quelle
+
+  3.1 Sie dürfen wörtliche Kopien der abgedeckten Quelle kopieren und weitergeben, in
+      jedes Medium, vorausgesetzt, Sie behalten alle Hinweise.
+
+  3.2 Sie dürfen die abgedeckte Quelle, mit Ausnahme von Hinweisen, ändern, vorausgesetzt, dass
+      Sie verpflichten sich unwiderruflich, die geänderte Covered Source
+      verfügbar von einem Quellstandort, wenn Sie ein Produkt transportieren in
+      Umstände, unter denen der Empfänger nicht anderweitig eine
+      Kopie der modifizierten Covered Source. In jedem Fall Unterabschnitt 3.3
+      Es gilt.
+
+      Sie können Mitteilungen nur dann löschen, wenn sie nicht mehr relevant sind für
+      die entsprechende abgedeckte Quelle in der von Ihnen geänderten Form und Sie können
+      Fügen Sie zusätzliche Hinweise hinzu, die für Ihre Änderungen gelten.
+
+  3.3 Sie dürfen modifizierte, abgedeckte Quellen übermitteln (mit der Folge, dass Sie
+      wird auch ein Lizenzgeber), vorausgesetzt, dass Sie:
+
+       a) Mitteilungen gemäß Unterabschnitt 3.2 aufbewahren;
+
+       b) fügen Sie der geänderten abgedeckten Quelle einen Hinweis hinzu, dass Sie
+          haben es geändert, mit Datum und kurzer Beschreibung wie
+          Sie haben es geändert;
+
+       c) Hinzufügen einer Quellenstandortangabe für die geänderte abgedeckte Quelle
+          wenn Sie unter Umständen übermitteln, in denen der Empfänger nicht
+          andernfalls eine Kopie der geänderten abgedeckten Quelle erhalten; und
+
+       d) die modifizierte Covered Source unter den Bedingungen und
+          Bedingungen dieser Lizenz (oder, wie in Unterabschnitt
+          8.3, eine spätere Version, sofern dies durch die Lizenz des
+          ursprüngliche abgedeckte Quelle). Eine solche modifizierte abgedeckte Quelle muss
+          als Ganzes lizenziert werden, jedoch ohne verfügbare Komponenten
+          darin enthaltenen oder externen Materialien, auf die es sich bezieht
+          verbunden sind, die weiterhin unter ihren eigenen anwendbaren
+          Lizenzen.
+
+
+4 Herstellung und Transport von Produkten
+
+  4.1 Sie dürfen Produkte herstellen und/oder übermitteln, vorausgesetzt, dass Sie
+      entweder jedem Empfänger eine Kopie der vollständigen Quelle zur Verfügung stellen
+      oder stellen Sie sicher, dass jeder Empfänger über den Quellstandort informiert wird
+      der vollständigen Quelle. Diese vollständige Quelle umfasst
+      Quelle und Sie müssen dementsprechend Ihre Verpflichtungen erfüllen
+      in Unterabschnitt 3.3. Wenn in einer Mitteilung angegeben, muss das Produkt
+      den Quellstandort sichtbar und sicher darauf oder auf seinem
+      Verpackung oder Dokumentation in der darin angegebenen Weise
+      Beachten.
+
+  4.2 Wenn Sie ein Produkt übermitteln, das externes Material enthält,
+      die vollständige Quelle für das Produkt, die Sie benötigen
+      gemäß Unterabschnitt 4.1 muss keine Quelle für die
+      Externes Material.
+
+  4.3 Sie können Produkte unter Bedingungen Ihrer Wahl lizenzieren, vorausgesetzt
+      dass diese Bedingungen keine
+      Rechte der Empfänger im Rahmen dieser Lizenz an der abgedeckten Quelle.
+
+
+5 Forschung und Entwicklung
+
+Sie dürfen abgedeckte Quellen, modifizierte abgedeckte Quellen oder Produkte übermitteln an
+eine juristische Person, die Entwicklung, Tests oder Qualitätssicherung durchführt
+in Ihrem Namen arbeiten, vorausgesetzt, die Arbeit wird zu Bedingungen ausgeführt,
+verhindern, dass das Unternehmen die Quelle oder die Produkte für seine eigenen Zwecke nutzt
+interne Zwecke und die Übermittlung der Quelle oder Produkte oder
+Änderungen an ihnen an andere Personen als Sie. Alle Änderungen
+Die von der juristischen Person getätigten Zahlungen gelten als von Ihnen getätigt gemäß
+Unterabschnitt 3.2.
+
+
+6 HAFTUNGSAUSSCHLUSS UND HAFTUNG
+
+  6.1 HAFTUNGSAUSSCHLUSS – Die abgedeckte Quelle und alle Produkte
+      werden „wie besehen“ bereitgestellt und jegliche ausdrückliche oder stillschweigende Garantien,
+      einschließlich, aber nicht beschränkt auf implizite Garantien für
+      Marktgängigkeit, zufriedenstellende Qualität, Nichtverletzung von
+      Rechte Dritter und Eignung für einen bestimmten Zweck oder eine bestimmte Nutzung
+      werden in Bezug auf jede Quelle oder jedes Produkt abgelehnt,
+      maximal gesetzlich zulässigen Umfang. Der Lizenzgeber übernimmt keine
+      Zusicherung, dass eine Quelle oder ein Produkt nicht
+      gegen Patente, Urheberrechte, Geschäftsgeheimnisse oder andere
+      Eigentumsrecht. Das gesamte Risiko hinsichtlich der Verwendung, Qualität und
+      Die Leistung einer Quelle oder eines Produkts liegt bei Ihnen und nicht
+      der Lizenzgeber. Dieser Haftungsausschluss ist ein wesentlicher Bestandteil
+      dieser Lizenz und eine Voraussetzung für die Gewährung jeglicher Rechte
+      im Rahmen dieser Lizenz gewährt.
+
+  6.2 HAFTUNGSAUSSCHLUSS UND HAFTUNGSBESCHRÄNKUNG - Der Lizenzgeber verpflichtet sich,
+      Soweit gesetzlich zulässig, übernehmen wir keine Haftung für
+      direkt, indirekt, speziell, zufällig, folgerichtig, exemplarisch,
+      Straf- oder andere Schäden jeglicher Art, einschließlich, ohne
+      Einschränkung, Beschaffung von Ersatzgütern oder -dienstleistungen, Verlust von
+      Nutzung, Daten oder Gewinne oder Betriebsunterbrechung, wie auch immer verursacht
+      und auf jeder Theorie des Vertrags, der Garantie, des Delikts (einschließlich
+      Fahrlässigkeit), Produkthaftung oder anderweitig, die in irgendeiner Weise
+      in Bezug auf die abgedeckte Quelle, modifizierte abgedeckte Quelle
+      und/oder die Herstellung oder Beförderung eines Produkts, auch wenn darauf hingewiesen wird
+      die Möglichkeit solcher Schäden, und Sie halten die
+      Lizenzgeber frei und schadlos von jeglicher Haftung, Kosten,
+      Schadensersatz, Gebühren und Aufwendungen, einschließlich Ansprüche Dritter,
+      in Bezug auf eine solche Verwendung.
+
+
+7 Patente
+
+  7.1 Vorbehaltlich der Bedingungen dieser Lizenz gilt für jeden
+      Der Lizenzgeber gewährt Ihnen hiermit eine unbefristete, weltweite,
+      nicht exklusiv, kostenlos, lizenzgebührenfrei, unwiderruflich (außer als
+      in den Abschnitten 7.2 und 8.4 angegeben) Patentlizenz zu machen, haben
+      Hergestellt, verwendet, zum Verkauf angeboten, verkauft, importiert und anderweitig übertragen
+      die abgedeckte Quelle und Produkte, wobei diese Lizenz nur gilt
+      auf jene Patentansprüche, die von diesem Lizenzgeber lizenzierbar sind, die
+      notwendigerweise durch die Ausübung von Rechten unter dem abgedeckten
+      Quelle wie von diesem Lizenzgeber übermittelt.
+
+  7.2 Wenn Sie einen Patentstreit gegen eine juristische Person (einschließlich
+      eine Widerklage oder Gegenklage in einem Rechtsstreit), in der behauptet wird, dass
+      Abgedeckte Quelle oder ein Produkt stellt direkte oder mitwirkende
+      Patentverletzung, oder Sie fordern eine Erklärung, dass ein Patent
+      Ihnen im Rahmen dieser Lizenz lizenziert ist ungültig oder nicht durchsetzbar
+      dann werden alle Rechte, die Ihnen im Rahmen dieser Lizenz gewährt werden,
+      enden mit dem Datum der Einleitung des Prozesses.
+
+
+8 Allgemeines
+
+  8.1 Sollten Bestimmungen dieser Lizenz ungültig sein oder später ungültig werden,
+      aus irgendeinem Grund ungültig oder nicht durchsetzbar ist,
+      Bestimmungen bleiben wirksam.
+
+  8.2 Sie dürfen den Namen (einschließlich Akronyme und
+      Abkürzungen), Bild oder Logo, mit dem der Lizenzgeber oder CERN
+      bekannt, außer wenn dies zur Einhaltung von Abschnitt 3 erforderlich ist oder wenn
+      die Nutzung anderweitig gesetzlich erlaubt ist. Jede solche erlaubte Nutzung
+      müssen sachlich sein und dürfen nicht so erfolgen, dass sie irgendeine Art von
+      der Billigung oder der Implikation einer Beteiligung des Lizenzgebers oder
+      sein Personal.
+
+  8.3 CERN kann aktualisierte Versionen und Varianten dieser Lizenz veröffentlichen
+      die es als im Sinne dieser Fassung erachtet, aber möglicherweise
+      sich im Detail unterscheiden, um neue Probleme oder Anliegen anzusprechen. Neu
+      Versionen werden mit einer eindeutigen Versionsnummer und einem
+      Variantenkennung, die die Variante angibt. Wenn der Lizenzgeber
+      angegeben, dass eine bestimmte Variante für die abgedeckte Quelle gilt
+      ohne Angabe einer Version, können Sie diese abgedeckte Quelle behandeln
+      als unter jeder Version des CERN-OHL veröffentlicht mit diesem
+      Variante. Wenn keine Variante angegeben ist, ist die abgedeckte Quelle
+      als unter CERN-OHL-S freigegeben behandelt. Der Lizenzgeber kann
+      Geben Sie auch an, dass die abgedeckte Quelle einer bestimmten
+      Version des CERN-OHL oder einer späteren Version. In diesem Fall
+      kann diese oder jede spätere Version von CERN-OHL mit der gleichen
+      Vom CERN veröffentlichte Variantenkennung.
+
+      Sie können Covered Source unter CERN-OHL-W lizenziert als
+      lizenziert unter CERN-OHL-S, wenn und nur wenn alle verfügbaren
+      Die in der abgedeckten Quelle genannten Komponenten entsprechen den
+      entsprechende Definition der verfügbaren Komponente für CERN-OHL-S.
+
+  8.4 Diese Lizenz erlischt mit sofortiger Wirkung, wenn Sie
+      um die Bedingungen einzuhalten.
+
+  8.5 Wenn Sie jedoch alle Verstöße gegen diese Lizenz einstellen, dann
+      Die Lizenz eines Lizenzgebers wird wiederhergestellt, es sei denn, dieser Lizenzgeber hat
+      diese Lizenz gekündigt, indem Sie, während Sie in
+      Verstoß, eine Mitteilung, die den Verstoß spezifiziert und Sie zur Behebung auffordert
+      innerhalb von 30 Tagen und Sie haben die Einhaltung nicht erreicht
+      in allen wesentlichen Punkten bis zum Ende der 30-tägigen Frist. Sollte
+      Sie wiederholen den Verstoß nach Erhalt einer Abhilfemaßnahme und
+      spätere Wiederherstellung, diese Lizenz erlischt
+      sofort und dauerhaft. Abschnitt 6 gilt weiterhin
+      nach einer etwaigen Kündigung.
+
+  8.6 Diese Lizenz kann nur durch einen Lizenzgeber durchgesetzt werden.
+      als solche handeln, und Drittbegünstigtenrechte sind
+      ausdrücklich ausgeschlossen.
